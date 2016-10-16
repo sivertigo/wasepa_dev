@@ -6,7 +6,7 @@ MAINTAINER Takuya Sugawara <sg.tak22@gmail.com>
 ENV APP_ROOT /root
 #ENV APP_ROOT /root/rails_sample
 #ADD ./wasepa_app /root/wasepa_app
-ADD ./Gemfile /root
+ADD ./rails_sample/Gemfile /root
 WORKDIR $APP_ROOT
 #WORKDIR /root/wasepa_app/rails_sample
 #ADD ./rails_sample /root/rails_sample
